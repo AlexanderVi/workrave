@@ -182,7 +182,7 @@ BreakWindow::init_gui()
         }
       else
         {
-          set_border_width(0);
+          set_border_width(333);
           Frame *window_frame = Gtk::manage(new Frame());
           window_frame->set_border_width(0);
           window_frame->set_frame_style(Frame::STYLE_BREAK_WINDOW);
